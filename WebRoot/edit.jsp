@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -32,7 +32,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <s:form action="video/video_editVideo">
   <h1>修改电影</h1>
   <s:hidden name="video.videoId"></s:hidden>
-  <s:textfield name="video.videoName" label="影片名">影片名</s:textfield><br>
+  <s:textfield name="video.videoName" label="影片名">啊啊啊啊啊影片名</s:textfield><br>
       <s:textfield name="video.introduce" label="描述">描述</s:textfield><br>
       <s:textfield name="video.videoType" label="类型">类型</s:textfield><br>
       <s:textfield name="video.director" label="导演">导演</s:textfield><br>
